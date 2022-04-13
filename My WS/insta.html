@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!--<style>
+       /* div{
+       background-color: gainsboro;
+       padding: 35px 40px;
+       width: 200px;
+       height: 80px;
+
+        }
+ .button{
+     background: #fff;
+     border: none;
+     padding: 10px 18px;
+     display: inline-block;
+     width: 180px;
+     cursor: pointer;
+     transform: skew(-30deg);
+     margin-top: 20px;
+     transition: all 1s;
+ }
+ span{
+     display: inline-block;
+     transform: skew(30deg);
+ }
+ .button:hover{
+     background: black;
+     color: #fff;
+     
+ }*/
+ .home{
+     margin-top: 300px;
+     padding: 15px 20px;
+     box-shadow: 5px 5px 5px grey;
+      font-size: 20px;
+      border-radius: 6px;
+      background-color: blueviolet;
+ }
+ .home:hover{
+     background-color: chartreuse;
+     transition: all 1s;
+     border-style: double;
+ }
+ .about{
+    margin-top: 300px;
+     padding: 15px 20px;
+     box-shadow: 5px 5px 5px grey ;
+      font-size: 20px;
+      border-radius: 6px;
+      transform: translateX(30px);
+      background-color: aqua;
+ }
+ </style>
+</head>
+<body>
+    <center>
+    <div>
+    <button class="home">Home</button>
+    <button class="about" >About</button>
+    </div>
+    </center>-->
+    <body>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+            
+            padding: 0;
+            margin: 0;
+            background-color: aliceblue;
+        }
+        ul li{
+            list-style-type: none;
+            position:absolute;
+            transform: translate(-70%,-70%);
+            top:50%;
+            left:50%;
+            display: flex;
+        }
+        .tw{
+            transform: translate(-300px,1px);
+        }
+        .fac{
+            transform: translateX(-110px);
+        }
+        .in{
+            transform:translateX(80px);
+        }
+        .wt{
+            transform: translateX(250px);
+        }
+      button{
+          height: 40px;
+          width:180px;
+          border-radius: 10px;
+          box-shadow: 4px 4px 8px;
+          transform: skew(25deg) rotate(-30deg) translate(0,0);   
+         font-size: 23px;
+      }
+      .tw :hover{
+           background-color: rgba(255, 192, 203, 0.941);
+           transition: 1s;  
+           box-shadow: -50px 50px 50px rgba(0,0,0,0.26); 
+           transform: rotate(-30deg) skew(25deg) translate(20px,-15px); 
+       }
+       .fac :hover{
+        background-color: rgba(255, 0, 0, 0.884);
+           transition:.5s; 
+           box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.26); 
+           transform: rotate(-30deg) skew(10deg) translate(20px,-15px);  
+        }
+       .in :hover{
+        background-color: rgba(245, 245, 34, 0.884);
+           transition:.5s; 
+           box-shadow: -50px 50px 50px rgba(0,0,0, 0.26);   
+           transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+       }
+       .wt :hover{
+        background-color: lightgreen;
+           transition:.5s; 
+           box-shadow: -50px 50px 50px rgba(0,0,0,0.26);
+           transform: rotate(-30deg) skew(25deg) translate(20px,-15px);  
+       }
+    </style>
+<div class="container">
+<ul>
+   <li class="fac"> <button><i class="fa-brands fa-youtube"></i><span>Youtube</span></button></li>
+    <li class="in"> <button><i class="fa-brands fa-snapchat-square"></i><span>SnapChat</span></button></li>
+    <li class="wt"> <button><i class="fa-brands fa-whatsapp"></i><span>Whatsapp</span></button></li>
+    <li class="tw" > <button><i class="fa-brands fa-instagram"></i><span>Instagram</span></button></li>
+</ul>
+</div>
+</body>
+</html>

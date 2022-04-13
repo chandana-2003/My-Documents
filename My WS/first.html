@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        header {
+            background-color: black;
+            padding: 20px;
+        }
+        nav ul li {
+            color: black;
+            list-style: none;
+            display: inline;
+            padding: 20px;
+            border: 2px;
+            border-radius: 2px;
+            border-color: aliceblue;
+           
+        }
+
+        #home,#prdt,#service,#blog{
+            color: aliceblue;
+            background-color: rgb(21, 156, 209);
+            font-size: 20px;
+            transform: translateX(8px);
+        }
+        #prdt{
+            transform: translateX(35px);
+           float: left;
+        }
+        .fgh{
+            background-color: rgb(21, 156, 209);
+          
+        }
+        #home{
+        float: left;
+        }
+        #service{
+          transform: translateX(40px);
+          float: left;
+        }
+       .blog{
+          transform: translate(20px 20px);
+       }
+           .animated{
+background: linear-gradient(to right, #114dff,#fd1d1d,#fcb045);
+background-size: 100%;
+animation: animate-background 5s infinite ease-in-out;
+height: 70vh;
+           }
+           @keyframes animated {
+               0%{
+                   background-position:0 70% ;
+               }
+               70%{
+                background-position:80% 60% ;
+               }
+               100%{
+                background-position:40 100% ;
+               }
+           }
+         /*  p{
+               text-decoration: underline;
+                text-decoration-color: red ;
+                 text-decoration-style: double;
+             text-decoration-thickness: 1px ;
+           }*/
+    </style>
+         
+</head>
+<body>
+    <header>
+        <nav>
+
+            <ul>
+                <button><a href="loginpage1.html">
+                    <li>HOME</li></a>
+                </button>
+                <button>
+                    <li>ABOUT US</li>
+                </button>
+                <button>
+                    <li>CONTACT</li>
+                </button>
+            </ul>
+        </nav>
+    </header>
+    <center>
+    <div class="select">
+    <label id="home">Home</label>
+    <select id="prdt">
+        <option value="product">Product</option>
+        <option value="price">Price</option>
+        <option value="mafdt">Manufacture Date</option>
+        <option value="exdt">Expiry Date</option>
+    </select>
+    <select id="service">
+        <option value="design">Web Design</option>
+        <option value="dev">Web Development</option>
+        <option value="cust">Web Customization</option>
+    </select>
+    <label id="blog" class="blog">Blog</label>
+</center>
+</div>
+<div class="animated">Bejagama Chandana</div>
+
+<p>Happy Birthday</p>
+<div class="fgh">
+<p style="background-color: #fd1d1d; align-content: space-around;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, tempora deleniti quam non ex, vitae incidunt, natus illo recusandae suscipit quisquam omnis labore ad neque laborum corrupti. Ad, ullam voluptate?</p>
+<p style="background-color:navajowhite; align-content: space-around;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, tempora deleniti quam non ex, vitae incidunt, natus illo recusandae suscipit quisquam omnis labore ad neque laborum corrupti. Ad, ullam voluptate?</p>
+<p style="background-color: navy; align-content: space-around;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, tempora deleniti quam non ex, vitae incidunt, natus illo recusandae suscipit quisquam omnis labore ad neque laborum corrupti. Ad, ullam voluptate?</p>
+</div>
+</body>
+</html>

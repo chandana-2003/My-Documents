@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        header nav{
+            background-color: black;
+            color: azure;
+        }
+        ul{
+            padding: 20px;
+        }
+        ul li{
+           padding: 20px;
+           display: inline;
+           list-style-type: none;
+        }
+        video{
+                 margin-top: 30px;
+                 
+        }
+        .container{
+            text-align: center;
+            background-image: linear-gradient(to bottom right,blue 0%, violet 70%, orange 30%, red 100%);
+            background-size: 200% 200%;
+            animation: movingGradient 5s linear infinite alternate;
+        }
+        @keyframes movingGradient{
+from{background-position: 0 0;}
+to {background-position: 100% 100%;}
+
+}
+        footer{
+            background-color: rgba(0, 0, 0, 0.6);
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <video src="/Imagine_Dragons_-_Believer_(Lyrics)(480p).mp4" controls></video>
+
+    </div>
+    <footer>
+        &copy; copyright Laddu 
+    </footer>
+</body>
+</html>
